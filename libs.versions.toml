@@ -74,7 +74,8 @@ koinAnnotations = "2.0.0"
 napier = "2.7.1"
 paletteKtx = "1.0.0"
 skie = "0.10.1"
-
+mmkvKotlin = "1.2.17"
+openidAuth = "0.11.1"
 
 [bundles]
 androidx-compose-ui-test = ["androidx-compose-ui-test", "androidx-compose-ui-testManifest"]
@@ -153,6 +154,7 @@ slf4j-api = { module = "org.slf4j:slf4j-api", version.ref = "slf4jApi" }
 spring-boot-starter = { module = "org.springframework.boot:spring-boot-starter", version.ref = "springBoot" }
 spring-boot-starter-web = { module = "org.springframework.boot:spring-boot-starter-web", version.ref = "springBoot" }
 spring-boot-starter-test = { module = "org.springframework.boot:spring-boot-starter-test", version.ref = "springBoot" }
+mmkv-kotlin = { module = "com.ctrip.flight.mmkv:mmkv-kotlin", version.ref = "mmkvKotlin" }
 
 napier-loggger = { module = "io.github.aakira:napier", version.ref = "napier" }
 
@@ -203,7 +205,7 @@ room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "
 sqlite-bundled = { module = "androidx.sqlite:sqlite-bundled", version.ref = "sqlite" }
 truth = { group = "com.google.truth", name = "truth", version.ref = "truth" }
 turbine = { group = "app.cash.turbine", name = "turbine", version.ref = "turbine" }
-
+openid-auth = {module = "net.openid:appauth",version.ref="openidAuth"}
 
 # Dependencies of the included build-logic
 android-gradlePlugin = { group = "com.android.tools.build", name = "gradle", version.ref = "androidGradlePlugin" }
