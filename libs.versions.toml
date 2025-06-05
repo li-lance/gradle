@@ -65,7 +65,7 @@ sqlite = "2.5.1"
 secrets = "2.0.1"
 truth = "1.4.4"
 turbine = "1.2.0"
-ktor = "3.1.2"
+ktor = "3.1.3"
 openapi = "7.12.0"
 logback = "1.5.18"
 springBoot = "3.4.4"
@@ -157,7 +157,7 @@ spring-boot-starter-test = { module = "org.springframework.boot:spring-boot-star
 mmkv-kotlin = { module = "com.ctrip.flight.mmkv:mmkv-kotlin", version.ref = "mmkvKotlin" }
 
 napier-loggger = { module = "io.github.aakira:napier", version.ref = "napier" }
-
+napier-loggger-android = { module = "io.github.aakira:napier-android", version.ref = "napier" }
 coil-kt = { group = "io.coil-kt", name = "coil", version.ref = "coil" }
 coil-kt-compose = { group = "io.coil-kt", name = "coil-compose", version.ref = "coil" }
 coil-kt-svg = { group = "io.coil-kt", name = "coil-svg", version.ref = "coil" }
