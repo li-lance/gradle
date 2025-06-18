@@ -76,6 +76,7 @@ paletteKtx = "1.0.0"
 skie = "0.10.1"
 mmkvKotlin = "1.2.17"
 openidAuth = "0.11.1"
+vanniktechMaven = "0.32.0"
 
 [bundles]
 androidx-compose-ui-test = ["androidx-compose-ui-test", "androidx-compose-ui-testManifest"]
@@ -218,6 +219,7 @@ ksp-gradlePlugin = { group = "com.google.devtools.ksp", name = "com.google.devto
 room-gradlePlugin = { group = "androidx.room", name = "room-gradle-plugin", version.ref = "room" }
 openapi-generator-gradlePlugin = { group = "org.openapitools", name = "openapi-generator-gradle-plugin", version.ref = "openapi" }
 androidx-palette-ktx = { group = "androidx.palette", name = "palette-ktx", version.ref = "paletteKtx" }
+vanniktech-maven-publish-gradlePlugin = { group = "com.vanniktech", name = "gradle-maven-publish-plugin", version.ref = "vanniktechMaven" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "androidGradlePlugin" }
@@ -242,6 +244,7 @@ secrets = { id = "com.google.android.libraries.mapsplatform.secrets-gradle-plugi
 openapi-generator = { id = "org.openapi.generator", version.ref = "openapi" }
 spring-boot = { id = "org.springframework.boot", version.ref = "springBoot" }
 skie = { id = "co.touchlab.skie", version.ref = "skie" }
+vanniktech-maven-publish = { id = "com.vanniktech.maven.publish.base", version.ref = "vanniktechMaven" }
 #KMP
 kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
 # Plugins defined by this project
