@@ -3,7 +3,7 @@ accompanistPermissions = "0.37.3"
 accompanistSystemuicontroller = "0.36.0"
 androidDesugarJdkLibs = "2.1.5"
 # AGP and tools should be updated together
-androidGradlePlugin = "8.11.1"
+androidGradlePlugin = "8.13.0"
 androidTools = "31.12.2"
 androidxActivity = "1.10.1"
 androidxAppCompat = "1.7.1"
@@ -161,7 +161,7 @@ spring-boot-starter-web = { module = "org.springframework.boot:spring-boot-start
 spring-boot-starter-test = { module = "org.springframework.boot:spring-boot-starter-test", version.ref = "springBoot" }
 mmkv-kotlin = { module = "com.ctrip.flight.mmkv:mmkv-kotlin", version.ref = "mmkvKotlin" }
 
-napier-loggger = { module = "io.github.aakira:napier", version.ref = "napier" }
+napier-logger = { module = "io.github.aakira:napier", version.ref = "napier" }
 napier-loggger-android = { module = "io.github.aakira:napier-android", version.ref = "napier" }
 coil-kt = { group = "io.coil-kt", name = "coil", version.ref = "coil" }
 coil-kt-compose = { group = "io.coil-kt", name = "coil-compose", version.ref = "coil" }
@@ -223,7 +223,7 @@ apache-poi-ooxml = { module = "org.apache.poi:poi-ooxml", version = "5.4.1" }
 apache-poi = { module = "org.apache.poi:poi", version = "5.4.1" }
 apache-xmlbeans = { module = "org.apache.xmlbeans:xmlbeans", version = "5.3.0" }
 apache-commons-collections4 = { module = "org.apache.commons:commons-collections4", version = "4.5.0" }
-
+calendar = { module = "com.kizitonwose.calendar:compose", version = "2.8.0" }
 # Dependencies of the included build-logic
 android-gradlePlugin = { group = "com.android.tools.build", name = "gradle", version.ref = "androidGradlePlugin" }
 android-tools-common = { group = "com.android.tools", name = "common", version.ref = "androidTools" }
