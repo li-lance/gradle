@@ -195,7 +195,6 @@ google-location = { group = "com.google.android.gms", name = "play-services-loca
 here-sdk = { group = "com.here.sdk", name = "explore", version.ref = "hereSdk" }
 yandex-mapkit = { group = "com.yandex.android", name = "maps.mobile", version.ref = "yandexMapkit" }
 tmap-sdk = { group = "com.skt.tmap", name = "tmap-sdk", version.ref = "tmapSdk" }
-amap-3dmap = { group = "com.amap.api", name = "3dmap", version.ref = "amap3d" }
 amap-map = { group = "com.amap.api", name = "3dmap", version.ref = "amap3d" }
 amap-location = { group = "com.amap.api", name = "location", version.ref = "amapLocation" }
 amap-search = { group = "com.amap.api", name = "search", version.ref = "amapSearch" }
