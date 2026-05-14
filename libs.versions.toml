@@ -48,7 +48,6 @@ googleOss = "17.3.0"
 googleOssPlugin = "0.10.10"
 hereSdk = "4.19.2.0"
 yandexMapkit = "4.33.1-full"
-tmapSdk = "1.1.4"
 amap3d = "10.0.600"
 amapLocation = "6.4.7"
 amapSearch = "9.7.3"
@@ -195,7 +194,6 @@ google-maps-utils = { group = "com.google.maps.android", name = "android-maps-ut
 google-location = { group = "com.google.android.gms", name = "play-services-location", version.ref = "googleLocation" }
 here-sdk = { group = "com.here.sdk", name = "explore", version.ref = "hereSdk" }
 yandex-mapkit = { group = "com.yandex.android", name = "maps.mobile", version.ref = "yandexMapkit" }
-tmap-sdk = { group = "com.skt.tmap", name = "tmap-sdk", version.ref = "tmapSdk" }
 amap-map = { group = "com.amap.api", name = "3dmap", version.ref = "amap3d" }
 amap-location = { group = "com.amap.api", name = "location", version.ref = "amapLocation" }
 amap-search = { group = "com.amap.api", name = "search", version.ref = "amapSearch" }
